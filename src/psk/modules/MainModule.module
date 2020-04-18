@@ -11,13 +11,17 @@
         "multiLineValues": "1"
       }
     },
-    "dirChooser": {
-      "type": "script\\DirectoryChooserScript",
-      "x": 192,
-      "y": 16,
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 288.0,
+      "y": 16.0,
       "props": {
-        "inputNode": "",
-        "actionNode": ""
+        "initialFileName": "Выбор фона",
+        "filterName": "PNG",
+        "filterExtensions": "*.png",
+        "filterAny": "0",
+        "inputNode": "edit",
+        "actionNode": "button4"
       }
     }
   }

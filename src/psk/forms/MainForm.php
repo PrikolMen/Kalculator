@@ -31,7 +31,7 @@ class MainForm extends AbstractForm
             }
             $this->edit->text = $result;
             $operation = false; 
-            } 
+            }
     }
 
     /**
@@ -209,9 +209,25 @@ $this->edit->text .= '0';
      */
     function doShow(UXWindowEvent $e = null)
     {    
-    $image = ('path/to/'.$this->ini->get('Skin','Settings'));
-        $this->image->image = new UXImage($image);
+        $img = $this->ini->get("img",'settings');
+           if(!$img == null){
+           if(fs::isFile($img)){
+           $this->image->image = new UXImage($img);
+           }else{
+           pre('Ошибка: Файл '.$img.' не найден!');
+           }
+        }
         
+        $r = rand(1,8);
+        if($r == 1)$this->edit->promptText = "1+1=2";
+        if($r == 2)$this->edit->promptText = "2+6=8";
+        if($r == 3)$this->edit->promptText = "PrikolMen + PHP = This Shit";
+        if($r == 4)$this->edit->promptText = "2/4=0.5";
+        if($r == 5)$this->edit->promptText = "11*3=33";
+        if($r == 6)$this->edit->promptText = "Pi + ka = Pika";
+        if($r == 7)$this->edit->promptText = "33/11=3";
+        if($r == 8)$this->edit->promptText = "1000/100=10";
+        $this->editAlt->requestFocus();
     }
 
 

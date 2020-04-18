@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="prikolmen" authorOS="Windows 10" createdAt="1562524593216" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="PrikolMen's Kalkulator" packageName="psk" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1570188941948">
+<project author="prikolmen" authorOS="Windows 10" createdAt="1562524593216" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="PrikolMen's Kalkulator" packageName="psk" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1576264401887">
   <tree>
     <expanded>
     <path src=""/>

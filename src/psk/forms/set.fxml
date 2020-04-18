@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120" prefWidth="256" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="136" prefWidth="256" styleClass="">
   <children>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="24" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="96" prefWidth="256" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="24" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="112" prefWidth="256" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <FlatButton alignment="CENTER" borderRadius="90" color="#336633" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" hoverColor="#669966" id="button" layoutX="16" layoutY="56" prefHeight="32" prefWidth="224" styleClass="x-flat-button " text="Закрыть" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </FlatButton>
         <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
-        <FlatButton alignment="CENTER" color="#336633" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#669966" id="buttonAlt" layoutX="8" layoutY="8" prefHeight="24" prefWidth="120" styleClass="x-flat-button " text="Установить Тему" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" color="#336633" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#669966" id="buttonAlt" layoutX="8" layoutY="8" prefHeight="24" prefWidth="120" styleClass="x-flat-button " text="Принять" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
         </FlatButton>
         <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
-        <FlatButton alignment="CENTER" color="#661a33" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#990000" id="button3" layoutX="128" layoutY="8" prefHeight="24" prefWidth="120" styleClass="x-flat-button " text="Сбросить Тему" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" color="#661a33" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#990000" id="button3" layoutX="128" layoutY="8" prefHeight="24" prefWidth="120" styleClass="x-flat-button " text="Сброс" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
         </FlatButton>
         <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
-        <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="32" orientation="HORIZONTAL" prefHeight="24" prefWidth="240" styleClass="separator "/>
+        <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="64" orientation="HORIZONTAL" prefHeight="16" prefWidth="240" styleClass="separator "/>
         <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+        <FlatButton alignment="CENTER" borderRadius="90" color="#334db3" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="16" layoutY="80" prefHeight="24" prefWidth="224" styleClass="x-flat-button " text="Закрыть" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="16"/>
+          </font>
+        </FlatButton>
+        <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="8" layoutY="40" prefColumnCount="12" prefHeight="16" prefWidth="176" promptText="Путь до картинки" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button4" layoutX="182" layoutY="40" prefHeight="25" prefWidth="66" styleClass="x-flat-button " text="Обзор" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>

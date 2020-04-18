@@ -127,6 +127,12 @@
         <Separator focusTraversable="false" id="separatorAlt" layoutX="8" layoutY="40" orientation="HORIZONTAL" prefHeight="16" prefWidth="304" styleClass="separator "/>
         <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-image" visible="1"/>
+        <TextField alignment="CENTER" editable="false" focusTraversable="true" id="editAlt" layoutX="248" layoutY="144" prefColumnCount="12" prefHeight="16" prefWidth="48" promptText="PIKA" styleClass="text-input text-field " text="PIKA">
+          <font>
+            <Font name="MS Gothic" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
